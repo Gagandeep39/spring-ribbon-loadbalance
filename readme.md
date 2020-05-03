@@ -47,9 +47,9 @@ String url = "http://doctor-service/allDoctors";
 1. Create a jar file of the microservice(doctor-service) using `mvn package`
 2. Run it using 
 ```
-java -Dserver.port=9081 -jar app_name.jar --server.port=9081
-java -Dserver.port=9082 -jar app_name.jar --server.port=9082
-java -Dserver.port=9083 -jar app_name.jar --server.port=9083
+java -jar app_name.jar --server.port=9081
+java -jar app_name.jar --server.port=9082
+java -jar app_name.jar --server.port=9083
 ```
 
 ## Load Balancing with Eureka 
